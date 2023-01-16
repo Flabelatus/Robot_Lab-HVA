@@ -110,7 +110,8 @@
 	   <!-- change in HVA_05_02: keep the track at the origin of the world instead move the irb2600 -->
 	   
 	  <Track model="IRBT2005_left" manufacturer="ABB" payload="1000" movesRobot="true">
-        <Base x="0.000" y="292" z="0.000" q1="1.000" q2="0.000" q3="0.000" q4="0.000"/>
+        <Base x="0.000" y="0" z="0.000" q1="1.000" q2="0.000" q3="0.000" q4="0.000"/>
+		<!--Base x="0.000" y="292" z="0.000" q1="1.000" q2="0.000" q3="0.000" q4="0.000"/-->
         <Joints>
           <Prismatic number="7" a ="824.5" d ="445" minrange = "-20000" maxrange ="20000" maxspeed ="1890"/>
         </Joints>
@@ -147,7 +148,8 @@
       </RobotArm>
 	  
 	  <Track model="IRBT2005_right" manufacturer="ABB" payload="1000" movesRobot="true">
-        <Base x="7500" y="292" z="0.000" q1="0.000" q2="0.000" q3="0.000" q4="1.000"/>
+        <Base x="7500" y="0" z="0.000" q1="0.000" q2="0.000" q3="0.000" q4="1.000"/>
+		<!-- <Base x="7500" y="292" z="0.000" q1="0.000" q2="0.000" q3="0.000" q4="1.000"/> -->
         <Joints>
           <Prismatic number="7" a ="825" d ="445" minrange = "-20000" maxrange ="20000" maxspeed ="1890"/>
         </Joints>
